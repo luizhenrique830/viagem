@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333;
+    color: #f8f8fa;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+ }
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #131212;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h2 {
+    font-size: 5.0rem;
+}
+
+h2 .container{
+    text-align: center;
+    display: flex;
+    margin-left: 200px;
+    background-color: aqua;
+
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.destinos {
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+/* Centralizar o título na seção de destinos */
+.destinos h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+    margin-left: 520px;
+    margin-right: 520px;
+    display: flex;
+}
+
+.destinos .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destino {
+    flex: 1 1 calc(33.333% - 1rem);
+    margin: 0.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destino img {
+    max-width: 100%; /* Faz com que a imagem se ajuste ao tamanho do bloco */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 267px;
+    height: 168px;
+    border-radius: 8px;
+}
+
+.destino h3 {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
